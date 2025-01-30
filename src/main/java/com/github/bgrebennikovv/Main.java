@@ -8,7 +8,6 @@ public class Main {
     private static final Employee[] employees = new Employee[10];
 
     public static void main(String[] args) {
-        // Инициализация массива сотрудников
         employees[0] = new Employee("Иванов Иван", 1, 50000);
         employees[1] = new Employee("Петров Петр", 2, 60000);
         employees[2] = new Employee("Сидоров Алексей", 3, 45000);
