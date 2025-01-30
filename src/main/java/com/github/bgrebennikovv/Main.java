@@ -8,16 +8,16 @@ public class Main {
     private static final Employee[] employees = new Employee[10];
 
     public static void main(String[] args) {
-        employees[0] = new Employee("Иванов Иван", 1, 50000);
-        employees[1] = new Employee("Петров Петр", 2, 60000);
-        employees[2] = new Employee("Сидоров Алексей", 3, 45000);
-        employees[3] = new Employee("Кузнецова Марина", 4, 70000);
-        employees[4] = new Employee("Васильев Олег", 5, 55000);
-        employees[5] = new Employee("Тихонов Андрей", 1, 48000);
-        employees[6] = new Employee("Федорова Анна", 2, 52000);
-        employees[7] = new Employee("Громов Виктор", 3, 47000);
-        employees[8] = new Employee("Самойлова Елена", 4, 75000);
-        employees[9] = new Employee("Дмитриев Артем", 5, 62000);
+        employees[0] = new Employee("Иванов Иван Алексеевич", 1, 50000);
+        employees[1] = new Employee("Петров Петр Николаевич", 2, 60000);
+        employees[2] = new Employee("Сидоров Алексей Владимирович", 3, 45000);
+        employees[3] = new Employee("Кузнецова Марина Олеговна", 4, 70000);
+        employees[4] = new Employee("Васильев Олег Сергеевич", 5, 55000);
+        employees[5] = new Employee("Тихонов Андрей Иванович", 1, 48000);
+        employees[6] = new Employee("Федорова Анна Степановна", 2, 52000);
+        employees[7] = new Employee("Громов Виктор Васильевич", 3, 47000);
+        employees[8] = new Employee("Самойлова Елена Александровна", 4, 75000);
+        employees[9] = new Employee("Дмитриев Артем Дмитриевич", 5, 62000);
 
         printAllEmployees();
         System.out.println("Общие затраты на ЗП: " + calculateTotalSalary());
