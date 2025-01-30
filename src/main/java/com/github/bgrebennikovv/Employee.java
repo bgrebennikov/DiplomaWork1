@@ -5,7 +5,7 @@ import java.util.Objects;
 class Employee {
     private static int counter = 1;
     private final int id;
-    private final String fullName;
+    private String fullName;
     private int department;
     private double salary;
 
@@ -22,6 +22,10 @@ class Employee {
 
     public String getFullName() {
         return fullName;
+    }
+
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
     }
 
     public int getDepartment() {
