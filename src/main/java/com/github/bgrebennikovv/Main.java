@@ -19,12 +19,15 @@ public class Main {
         employees[8] = new Employee("Самойлова Елена Александровна", 4, 75000);
         employees[9] = new Employee("Дмитриев Артем Дмитриевич", 5, 62000);
 
+
         printAllEmployees();
         System.out.println("Общие затраты на ЗП: " + calculateTotalSalary());
         System.out.println("Сотрудник с минимальной ЗП: " + findMinSalaryEmployee());
         System.out.println("Сотрудник с максимальной ЗП: " + findMaxSalaryEmployee());
         System.out.println("Средняя зарплата: " + calculateAverageSalary());
         printEmployeeNames();
+
+
     }
 
     private static void printAllEmployees() {
