@@ -39,7 +39,9 @@ public class Main {
     private static double calculateTotalSalary() {
         double total = 0;
         for (Employee employee : employees) {
-            total += employee.getSalary();
+            if (employee != null) {
+                total += employee.getSalary();
+            }
         }
         return total;
     }
@@ -57,7 +59,10 @@ public class Main {
     }
 
     private static double calculateAverageSalary() {
-        return calculateTotalSalary() / employees.length;
+        if (employees.length > 0) {
+            return calculateTotalSalary() / employees.length;
+        }
+        return 0;
     }
 
     private static void printEmployeeNames() {
